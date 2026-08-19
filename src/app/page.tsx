@@ -1,12 +1,12 @@
 
 
-import { GenerateImage } from "@/components/generate-image/generate-image";
+import { AiChat } from "@/components/chat-app-with-image-generation/ai-chat";
 
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <GenerateImage />
+    <div>
+      <AiChat />
    </div>
   );
 }
